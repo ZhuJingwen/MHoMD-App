@@ -1,0 +1,125 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: lighter;
+    color: #24438b;
+    background-color: #e6e6e6;
+
+    -webkit-appearance: none;
+    -webkit-touch-callout: none;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    margin:0px !important;
+}
+
+.app{
+  margin:0px !important;
+}
+
+h1 {
+  font-family: 'Amatic SC', cursive;
+    text-align: center;
+    display: inline;
+    margin:0;
+    font-size: 28pt;
+}
+
+.header{
+  width:375px;
+  top:34px;
+  left:0px;
+  position: absolute;
+}
+
+#disconnectButton{
+  position:absolute;
+  left:16px;
+  top:6px;
+}
+
+#devices{
+  position: absolute;
+  padding: 20px;
+  top:450px;
+}
+button {
+    margin: 15px;
+    -webkit-appearance:none;
+    font-size: 1.2em;
+}
+
+/* TODO */
+input[type=range] {
+    width: 100%;
+}
+
+.app{
+  /*padding-top: 20px;*/
+}
+
+#mainPage {
+    text-align:center;
+    position: absolute;
+    top:0px;
+    left:0px;
+}
+
+#detailPage {
+    text-align:center;
+    font-size: 1.2em;
+    margin:0px !important;
+    display:inline;
+    top:0px;
+    left:0px;
+}
+
+#detailPage div {
+}
+
+#detailPage button {
+    margin-top: 40px;
+    font-size: 0.6em; /* undo 2em from parent */
+}
+
+ul {
+    list-style: none;
+    border-bottom: 1px solid #d3d3d3;
+    text-align: left;
+}
+
+li {
+    margin-left: -40px;
+    padding: 5px;
+    padding-top: 10px;
+    min-height: 50px;
+    border-top: 1px solid #d3d3d3;
+    font-size: 0.9em;
+}
+
+button {
+    -webkit-appearance: none;
+    font-size: 1.5em;
+    border-radius: 0;
+    font-family: 'Open Sans', sans-serif;
+    color:#fff;
+    background-color: #24438b;
+}
+
+#resultDiv {
+    font: 16px "Source Sans", helvetica, arial, sans-serif;
+    font-weight: 200;
+    display: block;
+    -webkit-border-radius: 6px;
+    width: 100%;
+    height: 140px;
+    text-align: left;
+    overflow: auto;
+        font-family: 'Open Sans', sans-serif;
+}
+
+.backgroundImg{
+  position: absolute;
+  top:0px;
+  left:0px;
+  z-index: -999;
+}
